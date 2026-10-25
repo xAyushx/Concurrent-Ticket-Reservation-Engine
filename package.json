@@ -1,0 +1,27 @@
+{
+  "name": "tix-booking-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/server.js",
+    "migrate": "node scripts/migrate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xAyushx/Concurrent-Ticket-Reservation-Engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/xAyushx/Concurrent-Ticket-Reservation-Engine/issues"
+  },
+  "homepage": "https://github.com/xAyushx/Concurrent-Ticket-Reservation-Engine#readme",
+  "dependencies": {
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6"
+  }
+}
